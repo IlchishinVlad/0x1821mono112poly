@@ -1,0 +1,1 @@
+D:\Projects\Monopoly\Monopoly game\MonopolyClient\bin\Debug\MonopolyClient.exe.config
