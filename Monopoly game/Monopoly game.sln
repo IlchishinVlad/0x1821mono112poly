@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonopolyClient", "MonopolyClient\MonopolyClient.csproj", "{C42A0452-CC33-4C05-A7A9-EED6F527A409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonopolyNetworking", "MonopolyNetworking\MonopolyNetworking.csproj", "{A7901F81-0795-4A83-A3B3-9C682E4F4631}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C42A0452-CC33-4C05-A7A9-EED6F527A409}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C42A0452-CC33-4C05-A7A9-EED6F527A409}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C42A0452-CC33-4C05-A7A9-EED6F527A409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7901F81-0795-4A83-A3B3-9C682E4F4631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7901F81-0795-4A83-A3B3-9C682E4F4631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7901F81-0795-4A83-A3B3-9C682E4F4631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7901F81-0795-4A83-A3B3-9C682E4F4631}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
