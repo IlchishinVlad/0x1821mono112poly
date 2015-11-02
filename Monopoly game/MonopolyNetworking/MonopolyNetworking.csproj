@@ -41,10 +41,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Other\Client.cs" />
+    <Compile Include="Other\PacketTypes.cs" />
+    <Compile Include="Packet handlers\AbstractPacketHandler.cs" />
+    <Compile Include="Packet handlers\ClientSidePacketHandler.cs" />
+    <Compile Include="Packet handlers\ServerSidePacketHandler.cs" />
+    <Compile Include="Packets\NewClientConnectedPacket.cs" />
+    <Compile Include="Packets\Packet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sockets\AbstractSocket.cs" />
+    <Compile Include="Sockets\ClientSocket.cs" />
     <Compile Include="Sockets\ServerSocket.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

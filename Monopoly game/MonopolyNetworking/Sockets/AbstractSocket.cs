@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MonopolyNetworking
+﻿namespace MonopolyNetworking
 {
     public abstract class AbstractSocket
     {
@@ -8,5 +6,6 @@ namespace MonopolyNetworking
         public int Port { get; set; }
 
         public abstract void Run();
+        public abstract void Close();
     }
 }
